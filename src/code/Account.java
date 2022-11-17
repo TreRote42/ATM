@@ -1,5 +1,6 @@
 // Account.java
 // Represents a bank account
+package code;
 
 public class Account 
 {
