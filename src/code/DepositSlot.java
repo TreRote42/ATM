@@ -1,6 +1,7 @@
 // DepositSlot.java
 // Represents the deposit slot of the ATM
 package code;
+
 public class DepositSlot 
 {
    // indicates whether envelope was received (always returns true, 
