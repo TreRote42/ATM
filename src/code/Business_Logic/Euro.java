@@ -17,6 +17,11 @@ public class Euro {
 		valore = (long)(d*100);
 	}
 
+	//Create a cast from int to Euro
+	public Euro(int i) {
+		valore = i*100;
+	}
+
 	public long getValore() {
 		return valore;
 	}
