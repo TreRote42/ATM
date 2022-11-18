@@ -24,7 +24,7 @@ public class EuroTest {
         Euro myEuro = new Euro(9, 55);
         Euro myEuro2 = new Euro(5, 38);
         myEuro.somma(myEuro2);
-        Assert.assertEquals(1513, myEuro.getValore());
+        Assert.assertEquals(1493, myEuro.getValore());
         }
 
     @Test
