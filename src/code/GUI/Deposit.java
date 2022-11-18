@@ -1,8 +1,5 @@
 package code.GUI;
 
-import code.BankDatabase;
-import code.Transaction;
-
 import code.Database.BankDatabase;
 import code.Database.Transaction;
 
