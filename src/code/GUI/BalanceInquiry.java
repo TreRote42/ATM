@@ -4,6 +4,7 @@ package code.GUI;
 
 import code.Database.BankDatabase;
 import code.Database.Transaction;
+import code.Business_Logic.Euro;
 public class BalanceInquiry extends Transaction
 {
    // BalanceInquiry constructor
@@ -21,11 +22,11 @@ public class BalanceInquiry extends Transaction
       Screen screen = getScreen();
 
       // get the available balance for the account involved
-      double availableBalance = 
+      Euro availableBalance = 
          bankDatabase.getAvailableBalance( getAccountNumber() );
 
       // get the total balance for the account involved
-      double totalBalance = 
+      Euro totalBalance = 
          bankDatabase.getTotalBalance( getAccountNumber() );
       
       // display the balance information on the screen

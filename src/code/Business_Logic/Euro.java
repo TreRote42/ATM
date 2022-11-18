@@ -3,7 +3,7 @@ package code.Business_Logic;
 public class Euro {
 
 
-	private long valore;
+	public long valore;
 
 	public Euro(long euro, long cent) {
 		if (euro >= 0) {
@@ -15,6 +15,11 @@ public class Euro {
 
 	public Euro(double d) {
 		valore = (long)(d*100);
+	}
+
+	//Create a cast from int to Euro
+	public Euro(int i) {
+		valore = i*100;
 	}
 
 	public long getValore() {
