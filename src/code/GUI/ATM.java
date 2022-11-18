@@ -4,7 +4,6 @@ package code.GUI;
 
 import code.Database.BankDatabase;
 import code.Database.Transaction;
-import code.GUI.Withdrawal;
 
 public class ATM 
 {
