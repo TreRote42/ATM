@@ -16,8 +16,8 @@ public class Account
    {
       accountNumber = theAccountNumber;
       pin = thePIN;
-      availableBalance.valore = (long) theAvailableBalance;
-      totalBalance.valore = (long) theTotalBalance;
+      availableBalance = new Euro(theAvailableBalance);
+      totalBalance = new Euro(theTotalBalance);
    } // end Account constructor
 
    // determines whether a user-specified PIN matches PIN in Account

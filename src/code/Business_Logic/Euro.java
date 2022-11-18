@@ -3,7 +3,7 @@ package code.Business_Logic;
 public class Euro {
 
 
-	public long valore;
+	private long valore;
 
 	public Euro(long euro, long cent) {
 		if (euro >= 0) {

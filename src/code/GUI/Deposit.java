@@ -33,7 +33,7 @@ public class Deposit extends Transaction
       BankDatabase bankDatabase = getBankDatabase(); // get reference
       Screen screen = getScreen(); // get reference
 
-      amount.valore = (long) promptForDepositAmount(); // get deposit amount from user
+      amount = new Euro(promptForDepositAmount()); // get deposit amount from user
 
       // check whether user entered a deposit amount or canceled
       if ( amount.getValore() != CANCELED )
