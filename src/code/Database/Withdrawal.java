@@ -1,4 +1,8 @@
-package code;
+package code.Database;
+
+import code.CashDispenser;
+import code.Keypad;
+import code.Screen;
 
 // Withdrawal.java
 // Represents a withdrawal ATM transaction

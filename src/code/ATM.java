@@ -2,6 +2,10 @@
 // Represents an automated teller machine
 package code;
 
+import code.Database.BankDatabase;
+import code.Database.Transaction;
+import code.Database.Withdrawal;
+
 public class ATM 
 {
    private boolean userAuthenticated; // whether user is authenticated
