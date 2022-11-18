@@ -6,7 +6,7 @@ import org.junit.Test;
 import code.Business_Logic.Euro;
 
 public class EuroTest {
-    @Test
+
     public void testGetValore() {
         Euro myEuro = new Euro(1, 33);
         Assert.assertEquals(133, myEuro.getValore());
