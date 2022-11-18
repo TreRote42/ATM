@@ -1,6 +1,6 @@
 // DepositSlot.java
 // Represents the deposit slot of the ATM
-package code;
+package code.GUI;
 
 public class DepositSlot 
 {

@@ -1,6 +1,6 @@
 // Keypad.java
 // Represents the keypad of the ATM
-package code;
+package code.GUI;
 import java.util.Scanner; // program uses Scanner to obtain user input
 
 public class Keypad

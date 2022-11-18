@@ -1,4 +1,7 @@
-package code;
+package code.GUI;
+
+import code.BankDatabase;
+import code.Transaction;
 
 // Deposit.java
 // Represents a deposit ATM transaction

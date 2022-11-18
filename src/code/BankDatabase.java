@@ -2,6 +2,8 @@
 // Represents the bank account information database 
 package code;
 
+import code.GUI.Account;
+
 public class BankDatabase
 {
    private Account accounts[]; // array of Accounts
