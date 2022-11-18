@@ -2,9 +2,8 @@
 // Represents a balance inquiry ATM transaction
 package code.GUI;
 
-import code.BankDatabase;
-import code.Transaction;
-
+import code.Database.BankDatabase;
+import code.Database.Transaction;
 public class BalanceInquiry extends Transaction
 {
    // BalanceInquiry constructor

@@ -1,7 +1,15 @@
+<<<<<<<< HEAD:src/code/GUI/Withdrawal.java
 package code.GUI;
 
 import code.BankDatabase;
 import code.Transaction;
+========
+package code.Database;
+
+import code.CashDispenser;
+import code.Keypad;
+import code.Screen;
+>>>>>>>> 9b804b7a6900ba6011f3f4b4ab0598d33fef66b3:src/code/Database/Withdrawal.java
 
 // Withdrawal.java
 // Represents a withdrawal ATM transaction
